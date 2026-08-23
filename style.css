@@ -1,15 +1,86 @@
-body {
-  background-color: rgb(65, 43, 34);
+@font-face {
+  font-family:"gotica" ;
+  src: url(OldLondon.ttf);
+}
+@font-face {
+  font-family:"SpaceGrotesk";
+  src: url(SpaceGrotesk-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family:"SpaceGrotesk";
+  src: url(SpaceGrotesk-Bold.ttf);
+  font-weight: bold;
+
 }
 
-h1 {
-  color: lightblue;
+body {
+  background-color: rgb(22, 36, 54);
+}
+
+.titulo, .subtitulo, .titulo_secao, .subtitulo_secao {
   text-align: center;
 }
 
-h2 
+ul {
+  margin:0;
+  padding:0;
+}
+
+.corpo_texto {
+  font-size:20px;
+  text-align: left;
+  margin: 16px;
+  text-indent: 20px;
+  
+}
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+  font-family:"SpaceGrotesk";
+  margin: 16px;
 }
+
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+a:visited {
+  color: burlywood;
+}
+#gato_arabe {
+  width:500px;
+  height: 500px;
+  max-width: none;
+  padding: 10px;
+  margin: 0px auto;
+  display: block;
+
+}
+
+.titulo {
+    color: lightblue;
+    font-size: 50px;
+    font-family: gotica ;
+}
+.subtitulo{
+   color:lightblue;
+   font-style: italic; 
+/*   border-style: dotted;*/
+}
+
+.titulo_secao{
+  font-size:  25px;
+  font-family:"SpaceGrotesk", bold;
+   
+}
+
+.subtitulo_secao{
+  font-size: 20px;
+  font-family:"SpaceGrotesk", normal;
+  }
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
