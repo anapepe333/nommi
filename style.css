@@ -14,18 +14,60 @@
 
 }
 
+
+.media {
+  max-width: 768px;
+  max-width: 90%;
+  height: auto;
+
+}
+
 body {
   background-color: rgb(22, 36, 54);
+  margin: 0px;
+  
 }
+
+nav {
+  background-color:teal;
+}
+nav ul {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding: 10px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav li{
+  margin: 0px;
+}
+
+nav a{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: rgb(42, 92, 158);
+  height: 50px;
+  padding: 0 16px;
+  min-width: 80px;
+  text-align: center;
+}
+
+nav a:hover{
+  background-color: rgb(26, 56, 95);
+}
+
 
 .titulo, .subtitulo, .titulo_secao, .subtitulo_secao {
   text-align: center;
 }
 
-ul {
-  margin:0;
-  padding:0;
-}
 
 .corpo_texto {
   font-size:20px;
@@ -49,8 +91,8 @@ a:visited {
 }
 #gato_arabe {
   width:500px;
-  height: 500px;
-  max-width: none;
+  height: auto;
+  max-width: 500px;
   padding: 10px;
   margin: 0px auto;
   display: block;
